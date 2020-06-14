@@ -1,0 +1,12 @@
+{
+  "name": "user",
+  "version": "1.0.0",
+  "description": "1.������վ�����������������¼��������˿�\r 2.�������ݿ�����\r \t��Ҫ�������ݿ���� net start mongoDB\r \tȻ�����ص�����ģ�� npm install mongoose \r 3.����������������� .json�ļ�\r  \tmongoimport -d playground -c users --file ./user.json",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

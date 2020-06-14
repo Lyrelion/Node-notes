@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!--作为被继承布局的模板，这里负责预留位置给其他模板填充 -->
+	{{block 'link'}} {{/block}}
+</head>
+<body>
+	{{block 'content'}} {{/block}}
+</body>
+</html>

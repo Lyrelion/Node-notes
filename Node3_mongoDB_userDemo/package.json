@@ -1,0 +1,17 @@
+{
+  "name": "Node3",
+  "version": "1.0.0",
+  "description": "打开命令行工具，安装数据库第三方模块 npm install mongoose",
+  "main": "01..js",
+  "dependencies": {
+    "all": "0.0.0",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

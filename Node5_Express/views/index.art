@@ -1,0 +1,14 @@
+{{ msg + 1}}
+
+<ul>
+	{{each users}}
+	<li>
+		{{$value.name}}
+		{{$value.age}}
+	</li>
+	{{/each}}
+</ul>
+
+// index page1
+// TeaMeow 21
+// BITDOGE 22

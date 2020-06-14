@@ -1,0 +1,8 @@
+<!-- 此处引入子模板，在标准语法中 include相当于关键字，include + '子模板路径' -->
+{{ include './common/header.art' }}
+<!-- 此处引入子模板，在原始语法中 include()相当于方法，include('子模板路径') -->
+<% include('./common/header.art') %>
+<!-- 将模板引擎的信息填充到主模板中 -->
+<div> {{ msg }} </div>
+{{ include './common/footer.art' }}
+<% include('./common/footer.art') %>

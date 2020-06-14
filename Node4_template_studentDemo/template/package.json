@@ -1,0 +1,17 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "打开文件夹 npm install art-template\r node 01.js 在控制台查看输出结果",
+  "main": "01.js",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "dateformat": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

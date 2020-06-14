@@ -1,0 +1,21 @@
+<ul>
+	{{each users}}
+		<li>
+		<!-- 获取数组里的值，$value 这就是固定写法，获取值属性再加. -->
+			{{$value.name}}
+			{{$value.age}}
+			{{$value.sex}}
+		</li>
+	{{/each}}
+</ul>
+
+<ul>
+	<% for (var i = 0; i < users.length; i++) { %>
+		<li>
+		<!--此处获得数组的值，采取数组的形式，利用 for循环-->
+			<%=users[i].name %>
+			<%=users[i].age %>
+			<%=users[i].sex %>
+		</li>
+	<% } %>
+</ul>

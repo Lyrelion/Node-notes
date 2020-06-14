@@ -1,0 +1,12 @@
+<!-- 此处写出继承哪个模板，写出他的位置 extend + '继承模板路径' -->
+{{extend './common/layout.art'}}
+
+{{block 'content'}}
+<!-- 在继承模板 预留的名为 content 的位置，填充本模板自己的内容 -->
+<p>{{ msg }}</p>
+{{/block}}
+
+{{block 'link'}}
+<!-- 在继承模板 预留的名为 link 的位置，填充引入的文件 -->
+<link rel="stylesheet" type="text/css" href="./main.css">
+{{/block}}
